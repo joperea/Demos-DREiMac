@@ -9,6 +9,8 @@ Install the DREiMac library https://github.com/ctralie/DREiMac
 We will first create and activate a separate conda environment for DREiMac, so that it does not conflict with any other packages in your Python installation. 
 ```
 conda create -n dreimac python=3.8
+```
+```
 conda activate dreimac
 ```
 Next, we install the needed dependencies by running
