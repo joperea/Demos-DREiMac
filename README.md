@@ -11,11 +11,23 @@ We will first create and activate a separate conda environment for DREiMac, so t
 conda create -n dreimac python=3.8.3
 conda activate dreimac
 ```
+Next, we install the needed dependencies by running
+```
+pip install cython matplotlib numba numpy persim ripser scikit-tda scipy jupyter screeninfo
+```
 Now, to install DREiMac in this isolated environment, run
 ```
 git clone https://github.com/ctralie/DREiMac.git
 cd DREiMac
-pip install cython
-pip install -r requirements.txt
 python setup.py install
+cd ..
 ```
+
+### Step 3: 
+Get the jupyter notebooks for the DREiMac demos:
+```
+git clone https://github.com/joperea/Demos-DREiMac.git
+cd Demos
+jupyter notebook
+```
+
