@@ -27,7 +27,7 @@ cd ..
 Get the jupyter notebooks for the DREiMac demos:
 ```
 git clone https://github.com/joperea/Demos-DREiMac.git
-cd Demos
+cd Demos-DREiMac/Demos
 jupyter notebook
 ```
 
