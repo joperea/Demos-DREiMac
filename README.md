@@ -13,7 +13,7 @@ conda activate dreimac
 ```
 Next, we install the needed dependencies by running
 ```
-pip install cython matplotlib numba numpy persim ripser scikit-tda scipy jupyter screeninfo
+pip install cython numba persim ripser jupyter screeninfo opencv-python plotly
 ```
 Now, to install DREiMac in this isolated environment, run
 ```
